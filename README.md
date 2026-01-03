@@ -1,12 +1,19 @@
 # Boundary-value-problems
 This is a project which shows how to solve simple boundary value problems in differential equations in Wolfram Language(Mathematica).
+
 1. Overview
+   
    This project contains solutions of simple boundary value problems(BVPs) for ordinary differential equations implemented using Wolfram Language/Wolfram Mathematica.
+
 2. Mathematical Formulation
+   
    The problems considered are simple first and second-order ODEs of the form:
+   
    y'(x)=f(x,y), x ∈ [a, b]
 and y''(x) = f(x,y,y')
+
 where y(a) = α,   y(b) = β (Dirichlet)
+
 y'(a) = α,   y'(b) = β (Neumann)
 
 3. Methods Used in Mathematica
@@ -21,7 +28,7 @@ y'(a) = α,   y'(b) = β (Neumann)
    
    • Plot
 
-5. Purpose of Methods Deployed
+4. Purpose of Methods Deployed
 
    • DSolve – obtains exact (symbolic) solutions of differential equations.
 
@@ -33,7 +40,7 @@ y'(a) = α,   y'(b) = β (Neumann)
 
    •Plot – visualizes the solution over the given interval.
 
-7. Files included
+5. Files included
 
    • .nb notebook containing worked Mathematica solutions
 
@@ -41,5 +48,6 @@ y'(a) = α,   y'(b) = β (Neumann)
 
    • .pdf file contains exported problem statements and results
 
-9. Academic Context
+6. Academic Context
+ 
    Intended for coursework and practice in ordinary differential equations using Wolfram Mathematica.
